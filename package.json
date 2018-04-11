@@ -1,0 +1,24 @@
+{
+  "name": "node-boot",
+  "version": "1.0.0",
+  "description": "Node项目快速脚手架",
+  "main": "app.js",
+  "scripts": {
+	"start":"node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharkshore/node-boot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharkshore/node-boot/issues"
+  },
+  "homepage": "https://github.com/sharkshore/node-boot#readme",
+  "dependencies": {
+    "log4js": "^2.5.3",
+    "qs": "^6.5.1"
+  }
+}
