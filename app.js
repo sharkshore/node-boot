@@ -14,3 +14,4 @@ var json_str=fs.readFileSync('package.json',
 var qs_str=qs.stringify(JSON.parse(json_str))
 
 logger.info(qs_str);
+console.log('输出日志到node-sample.log');
