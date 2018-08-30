@@ -10,6 +10,11 @@ var json_str=fs.readFileSync('package.json',
 		}
 )
 
+//fs同步写文件
+fs.writeFileSync('sample-file.txt','234fklsdfh243haslfdl',{
+	encoding:'utf8'
+})
+
 //使用qs包
 var qs_str=qs.stringify(JSON.parse(json_str))
 
